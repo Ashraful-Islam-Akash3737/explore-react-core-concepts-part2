@@ -26,7 +26,7 @@ function App() {
 
       <Users></Users>
 
-      {/* <Album></Album> */}
+      <Album></Album>
     </>
   )
 }

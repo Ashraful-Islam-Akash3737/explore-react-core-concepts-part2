@@ -1,5 +1,5 @@
 // import React from 'react'
-import '../Album/Album.css'
+import './Album.css'
 
 import { useEffect, useState } from "react"
 
@@ -14,13 +14,16 @@ export default function Album() {
   return (
     <div>
         <h3>albums</h3>
+        <h3>Albums: {albums.length}</h3>
         <div className="box-container">
-            <h3>Albums: {albums.length}</h3>
+            
             {
                 albums.map((album)=><div className='box'>
+                    <h4>Album Id: {album.albumId}</h4>
                     <h4>Id: {album.id}</h4>
                     <h3>Name: {album.title}</h3>
                     <img className='img-container' src={album.url} alt="" />
+                    <img className='img-container' src={album.thumbnailUrl} alt="" />
                 </div>)
             }
         </div>

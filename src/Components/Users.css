@@ -5,8 +5,11 @@
     border-radius: 15px;
     background-color: aquamarine;
 }
-.box-container{
+.box-container-wrapper{
     border: 2px solid red;
     padding: 15px;
     border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 }
