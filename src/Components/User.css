@@ -1,0 +1,12 @@
+.box{
+    border: 2px solid tomato;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: aquamarine;
+}
+.box-container{
+    border: 2px solid red;
+    padding: 15px;
+    border-radius: 15px;
+}
